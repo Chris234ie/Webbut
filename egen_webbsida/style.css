@@ -1,0 +1,39 @@
+    body.index {
+        background-image: url(bild/ktmlogo.png);
+        background-size: cover;
+        
+        
+        
+        
+        
+        
+        
+        color: white;
+}   
+
+    body.body {
+        background-image: url("bild/ktmlogo.png");
+        background-size: cover;
+        color: white;
+  }
+
+    table.top-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-collapse: collapse;
+    width: 300px;
+    text-align: center;
+  }
+  
+  table.top-right th,
+  table.top-right td {
+    border: 2px solid #ff6600;
+    padding: 5px;
+  }
+  
+  table.top-right th {
+    background-color: #ff6600;
+    color: white;
+  }
+  

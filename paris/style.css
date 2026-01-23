@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+
+body{
+    display: grid;
+    padding-right: 200px;
+    padding-left: 200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    height: 100vh;
+    grid-template-areas:
+    ". a b c ."
+    ". d . e ."
+    ". f g h ."
+    ". i k k ."
+    ". j k k ."
+    ;
+}
+
+
+.a{
+    grid-area: a;
+    background: url(a.jpg);
+    background-size: cover;
+}
+
+.b{
+    grid-area: b;
+    background: url(b.webp);
+    background-size: cover;
+}
+
+.c{
+    grid-area: c;
+    background: url(c.jpg);
+    background-size: cover;
+    border-top-right-radius: 10px;
+}
+
+.d{
+    grid-area: d;
+    background: url(d.jpg);
+    background-size: cover;
+}
+
+.e{
+    grid-area: e;
+    background: url(e.jpg);
+    background-size: cover;
+}
+
+.f{
+    grid-area: f;
+    background: url(f.jpg);
+    background-size: cover;
+}
+
+.g{
+    grid-area: g;
+    background: url(g.webp);
+    background-size: cover;
+}
+
+.h{
+    grid-area: h;
+    background: url(h.jpg);
+    background-size: cover;
+    border-bottom-right-radius: 10px;
+}
+
+.i{
+    grid-area: i;
+    background: url(i.jpg);
+    background-size: cover;
+}
+
+.j{
+    grid-area: j;
+    background: url(j.jpg);
+    background-size: cover;
+}
+
+.k{
+    grid-area: k;
+    font-family: "La Belle Aurore", cursive;
+    padding: 15px;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+}

@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+header, nav, main, footer, div{
+    border: 2px solid black;
+    margin: 4px;
+    background-color: red;
+}
+
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-columns:   1fr 1fr 1fr;
+    grid-template-areas: 
+    "felix anton anton" 
+    "felix . ronaldo"
+    "abdul abdul abdul"
+    ". chris .";
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+header{ 
+    grid-area: felix;
+}
+
+nav{
+    grid-area: anton;
+}
+
+main{
+    grid-area: ronaldo;
+}
+
+footer{
+    grid-area: abdul ;
+}
+
+div{
+    grid-area: chris;
+}
