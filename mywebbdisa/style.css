@@ -7,19 +7,19 @@ body {
 }
 
 body.index {
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/bild/ktmlogo.png') no-repeat center center fixed;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('bild/ktmlogo.png') no-repeat center center fixed;
   background-size: cover;
   color: white;
 }
 
 body.body {
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("/bild/ktmlogo.png") no-repeat center center fixed;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("bild/ktmlogo.png") no-repeat center center fixed;
   background-size: cover;
   color: white;
 }
 
 body.models {
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/bild/ktm-bike-background-zodhj1hjn6pp6dww.jpg') no-repeat center center fixed;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('bild/ktm-bike-background-zodhj1hjn6pp6dww.jpg') no-repeat center center fixed;
   background-size: cover;
   color: white;
 }
